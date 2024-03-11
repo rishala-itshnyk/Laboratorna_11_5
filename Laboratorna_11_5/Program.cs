@@ -93,7 +93,7 @@ public class Program
 
             Abonent updatedAbonent = abonents[index];
             updatedAbonent.Address = Console.ReadLine();
-            updatedAbonent.AddressChanged = true; // Оновлено: встановлення значення AddressChanged в true
+            updatedAbonent.AddressChanged = true;
             abonents[index] = updatedAbonent;
 
             Console.WriteLine("Адресу змінено успішно.");
